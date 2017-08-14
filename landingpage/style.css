@@ -5,24 +5,21 @@
   margin: 8px 0px 0px 0px;
   display: flex;
 }
-
  main {
    flex: 1 0 auto;
  }
-.nav-wrapper{
+
+#nav-header{
     background-color:#e85a71;
     padding-left: 50px;
     padding-right: 50px;
 }
-
 #nav-bar{
   margin-bottom:8px;
 }
-
 nav ul a{
   color:#000;
 }
-
 nav ul a:hover{
   cursor: pointer;
 }
@@ -77,9 +74,10 @@ margin: auto;
   background-color: #778584;
 }
 
-
 .row .col{
   height: 500px;
+  padding: 0px 0px 0px 0px;
+  background-position: center;
 }
 
 #card-content{
@@ -104,13 +102,10 @@ margin: auto;
 #connect-btn a{
   margin:20px 0px 20px 0px;
 }
-
 .page-footer{
   background: #000;
 }
-#nav-footer {
+#nav-footer{
   background-color: #000;
-}
-#nav-footer a{
-  color: #fff;
+  padding-right: 42%;
 }
